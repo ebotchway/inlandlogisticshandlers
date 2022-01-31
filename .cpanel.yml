@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/au49kqgfp24k/public_html/inlandlogisticshandlers.com
+    - /bin/cp home.php $DEPLOYPATH
+    - /bin/cp /assets/css/style.css $DEPLOYPATH
