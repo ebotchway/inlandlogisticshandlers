@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/au49kqgfp24k/public_html/inlandlogisticshandlers.com
-    - /bin/cp -R images $DEPLOYPATH
+    - /bin/cp -R * $DEPLOYPATH
