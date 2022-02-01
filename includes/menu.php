@@ -2,13 +2,13 @@
     <div class="position-relative">
         <div class="row">
             <div class="col-lg-3 col-md-12">
-                <a id="logo" href="home-1.html" class="d-inline-block margin-tb-15px"><img src="assets/img/logo.png" alt="inlandlogisticslogo" /></a>
+                <a id="logo" href="index.php" class="d-inline-block margin-tb-15px"><img src="assets/img/logo1.png" alt="inlandlogisticslogo" /></a>
                 <a class="mobile-toggle padding-15px background-second-color border-radius-3" href="#"><i class="fa fa-bars"></i></a>
             </div>
             <div class="col-lg-7 col-md-12 position-inherit">
                 <ul id="menu-main" class="nav-menu float-xl-left text-lg-center link-padding-tb-25px dropdown-dark">
                     <li class="">
-                        <a href="/">Home</a>
+                        <a href="index.php">Home</a>
                     </li>
                     <li class="has-dropdown">
                         <a href="#">About</a>
