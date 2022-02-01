@@ -4,13 +4,17 @@ Header set Content-Security-Policy "default-src 'self';"
 Header always append X-Frame-Options DENY
 Header set X-XSS-Protection "1: mode=block"
 
-RewriteEngine on
 Options +FollowSymlinks -MultiViews
 
-# to redirect my.site.com to my.site.com/index.html
+RewriteEngine on
+RewriteBase /
 RewriteRule ^$ /index.html [R,L]
-
-# to redirect /dir1/dir2 to index.php?url=dir1/dir2
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond  %{QUERY_STRING} !^url=
 RewriteRule ^([^/]+)/([^/]+)/?$ /index.php?url=$1/$2 [R,L,QSA]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !(\.[a-zA-Z0-9]{1,5}|/|#(.*))$
+RewriteRule ^(.*)$ $1/ [R=301,L]
+RewriteRule ^([^\.]+)/$ $1.php
+
+

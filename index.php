@@ -6,7 +6,7 @@ include_once("config.php");
 <html lang="en-US">
 
 <head>
-	<title>Inland Logistics Handlers</title>
+	<title>Inland Logistics Handlers | Home</title>
 	<?php include('includes/meta.php') ?>
 </head>
 
@@ -25,13 +25,13 @@ include_once("config.php");
 	<!-- // Header  -->
 
 	<!-- Search  -->
-	<div id="search">
+	<!-- <div id="search">
 		<button type="button" class="close">×</button>
 		<form class="clearfix d-block">
 			<input type="search" value="" placeholder="Search for . . . ." />
 			<button type="submit" class="btn btn-primary">Search</button>
 		</form>
-	</div>
+	</div> -->
 	<!-- // Search  -->
 
 	<!-- Get A Quote  -->
@@ -45,26 +45,26 @@ include_once("config.php");
 					<div class="col-lg-7">
 						<div class="padding-30px">
 							<h3 class="padding-bottom-15px">Get A Free Quote</h3>
-							<form>
+							<form method="post" action="includes/mailer.php">
 								<div class="form-row">
 									<div class="form-group col-md-6">
-										<label>Full Name</label>
-										<input type="text" class="form-control" id="inputName4" placeholder="Name" />
+										<label for="fullname">Full Name</label>
+										<input type="text" class="form-control" id="fullname" name="fullname" placeholder="John Doe" />
 									</div>
 									<div class="form-group col-md-6">
-										<label>Email</label>
-										<input type="email" class="form-control" id="inputEmail4" placeholder="Email" />
+										<label for="email">Email</label>
+										<input type="email" class="form-control" id="email" name="email" placeholder="john.doe@example.com" />
 									</div>
 								</div>
 								<div class="form-group">
-									<label>Address</label>
-									<input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" />
+									<label for="address">Address</label>
+									<input type="text" class="form-control" id="address" name="address" placeholder="1234 Main St" />
 								</div>
 								<div class="form-group">
-									<label>Message</label>
-									<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+									<label for="message">Message</label>
+									<textarea class="form-control" id="message" name="message" rows="3" placeholder="Comment"></textarea>
 								</div>
-								<a href="#" class="btn-sm btn-lg btn-block background-dark text-white text-center text-uppercase rounded-0 padding-15px">SEND MESSAGE</a>
+								<button name="submit" type="submit" class="btn-sm btn-lg btn-block background-dark text-white text-center text-uppercase rounded-0 padding-15px">SEND MESSAGE</button>
 							</form>
 						</div>
 					</div>
