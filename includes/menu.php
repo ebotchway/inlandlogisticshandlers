@@ -13,23 +13,23 @@
                     <li class="has-dropdown">
                         <a href="#">About</a>
                         <ul class="sub-menu">
-                            <li><a href="page-about-us.html">About Us</a></li>
-                            <li><a href="page-out-team.html">Our Team</a></li>
-                            <li><a href="page-contact-us.html">Contact Us</a></li>
+                            <li><a href="about.php">About Us</a></li>
+                            <li><a href="team.php">Our Team</a></li>
+                            <li><a href="contact.php">Contact Us</a></li>
                         </ul>
                     </li>
                     <li class="has-dropdown">
                         <a href="#">Services</a>
                         <ul class="sub-menu">
                             <li>
-                                <a href="service-single.html">Cargo Transportation</a>
+                                <a href="cargo.php">Cargo Transportation</a>
                             </li>
-                            <li><a href="service-single.html">Air Freight</a></li>
+                            <li><a href="air.php">Air Freight</a></li>
                             <li>
-                                <a href="service-single.html">Ocean Freight</a>
+                                <a href="ocean.php">Ocean Freight</a>
                             </li>
                             <li>
-                                <a href="service-single.html">Packaging and Storage</a>
+                                <a href="package.php">Packaging and Storage</a>
                             </li>
                         </ul>
                     </li>
