@@ -3,14 +3,13 @@
         <div class="col-lg-3 col-md-6">
             <div class="about-us sm-mb-45px">
                 <div class="logo-footer margin-bottom-35px">
-                    <a href="#"><img src="assets/img/logo-1.png" alt="" /></a>
+                    <a href="index.php"><img src="assets/img/logo1.png" alt="Inland Logistics Logo" /></a>
                 </div>
                 <div class="text margin-bottom-35px">
                     Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do
                     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                     enim ad minim veniam, quis nostrud exercitation
                 </div>
-                <a href="#" class="nile-bottom sm">Read More</a>
             </div>
         </div>
 
@@ -22,22 +21,12 @@
                     <li><a href="#">Air Freight </a></li>
                     <li><a href="#">Ocean Freight </a></li>
                     <li><a href="#">Packaging & Storage </a></li>
-                    <li><a href="#">Air Freight </a></li>
                 </ul>
             </div>
         </div>
 
         <div class="col-lg-3 col-md-6">
-            <div class="nile-widget widget_nav_menu sm-mb-45px">
-                <h2 class="title">Site Pages</h2>
-                <ul class="footer-menu">
-                    <li><a href="#">Cargo Transportation </a></li>
-                    <li><a href="#">Air Freight </a></li>
-                    <li><a href="#">Ocean Freight </a></li>
-                    <li><a href="#">Packaging & Storage </a></li>
-                    <li><a href="#">Air Freight </a></li>
-                </ul>
-            </div>
+
         </div>
 
         <div class="col-lg-3 col-md-6">
@@ -50,7 +39,7 @@
                         </div>
                         <div class="text">
                             <span class="title-in">Location :</span> <br />
-                            <span class="font-weight-500 text-uppercase">US - Los Angeles</span>
+                            <span class="font-weight-500 text-uppercase">3 Canal Plaza, Ground Floor Portland</span>
                         </div>
                     </div>
                 </div>
@@ -62,7 +51,7 @@
                         </div>
                         <div class="text">
                             <span class="title-in">Call Us :</span><br />
-                            <span class="font-weight-500 text-uppercase">00222123333019</span>
+                            <span class="font-weight-500 text-uppercase">650-876-2022</span>
                         </div>
                     </div>
                 </div>
@@ -75,32 +64,11 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="copy-right-text text-lg-left text-center sm-mb-15px">
-                    <a target="_blank" href="https://www.templateshub.net">Templates Hub</a>
+                    <a target="_blank" href="https://qbelimited.com">QBE (Ghana) Limited </a> © <?php echo date("Y"); ?>
                 </div>
             </div>
             <div class="col-lg-6">
-                <!--  Social -->
-                <ul class="social-media list-inline text-lg-right text-center margin-0px text-white">
-                    <li class="list-inline-item">
-                        <a class="facebook" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a class="youtube" href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a class="linkedin" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a class="google" href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a class="twitter" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a class="rss" href="#"><i class="fa fa-rss" aria-hidden="true"></i></a>
-                    </li>
-                </ul>
-                <!-- // Social -->
+                <?php include('social.php') ?>
             </div>
         </div>
     </div>
