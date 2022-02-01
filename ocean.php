@@ -41,27 +41,7 @@
 					<div class="col-lg-7">
 						<div class="padding-30px">
 							<h3 class="padding-bottom-15px">Get A Free Quote</h3>
-							<form method="post" action="includes/mailer.php">
-								<div class="form-row">
-									<div class="form-group col-md-6">
-										<label for="fullname">Full Name</label>
-										<input type="text" class="form-control" id="fullname" name="fullname" placeholder="John Doe" />
-									</div>
-									<div class="form-group col-md-6">
-										<label for="email">Email</label>
-										<input type="email" class="form-control" id="email" name="email" placeholder="john.doe@example.com" />
-									</div>
-								</div>
-								<div class="form-group">
-									<label for="address">Address</label>
-									<input type="text" class="form-control" id="address" name="address" placeholder="1234 Main St" />
-								</div>
-								<div class="form-group">
-									<label for="message">Message</label>
-									<textarea class="form-control" id="message" name="message" rows="3" placeholder="Comment"></textarea>
-								</div>
-								<button name="submit" type="submit" class="btn-sm btn-lg btn-block background-dark text-white text-center text-uppercase rounded-0 padding-15px">SEND MESSAGE</button>
-							</form>
+							<?php include('includes/form.php') ?>
 						</div>
 					</div>
 				</div>
@@ -141,28 +121,18 @@
 							</div>
 						</div>
 					</div>
-
-
-
 				</div>
-
 				<div class="col-lg-3">
-
 					<div class="background-main-color margin-bottom-40px">
 						<div class="services-list">
 							<ul>
-								<li><a href="service-single.html">Air Freight</a></li>
-								<li><a href="service-single.html">Ocean Freight</a></li>
-								<li><a href="service-single.html">Packaging and Storage</a></li>
-								<li class="active"><a href="service-single.html">Cargo Transportation </a></li>
-								<li><a href="service-single.html">Fast Delivery</a></li>
-								<li><a href="service-single.html">Railroad Transportation</a></li>
+								<li><a href="air.php">Air Freight</a></li>
+								<li class="active"><a href="ocean.php">Ocean Freight</a></li>
+								<li><a href="package.php">Packaging and Storage</a></li>
+								<li><a href="cargo.php">Cargo Transportation </a></li>
 							</ul>
 						</div>
 					</div>
-
-
-
 
 					<div class="background-white margin-bottom-40px">
 						<div class="nile-widget contact-widget">
@@ -195,23 +165,7 @@
 						<div class="background-grey-4 text-white">
 							<div class="padding-30px">
 								<h3 class="padding-bottom-15px">Get A Free Quote</h3>
-								<form>
-									<div class="form-row">
-										<div class="form-group col-md-12">
-											<label>Full Name</label>
-											<input type="text" class="form-control" id="inputName44" placeholder="Name">
-										</div>
-										<div class="form-group col-md-12">
-											<label>Email</label>
-											<input type="email" class="form-control" id="inputEmail44" placeholder="Email">
-										</div>
-									</div>
-									<div class="form-group">
-										<label>Message</label>
-										<textarea class="form-control" id="exampleFormControlTextarea11" rows="3"></textarea>
-									</div>
-									<a href="#" class="btn-sm btn-lg btn-block background-main-color text-white text-center  text-uppercase rounded-0 padding-15px">SEND MESSAGE</a>
-								</form>
+								<?php include('includes/form.php') ?>
 							</div>
 						</div>
 					</div>
@@ -238,14 +192,8 @@
 								<h4>Tell Friend</h4>
 							</a>
 						</div>
-						<div class="col-lg-4 col-md-4 sm-mb-45px">
-							<a href="#" class="action-bottom layout-1">
-								<img src="assets/icons/small-icon-2.png" alt="">
-								<h4>Read More</h4>
-							</a>
-						</div>
 						<div class="col-lg-4 col-md-4">
-							<a href="#" class="action-bottom layout-1">
+							<a href="contact.php" class="action-bottom layout-1">
 								<img src="assets/icons/small-icon-3.png" alt="">
 								<h4>Contact Us</h4>
 							</a>

@@ -41,27 +41,7 @@
                     <div class="col-lg-7">
                         <div class="padding-30px">
                             <h3 class="padding-bottom-15px">Get A Free Quote</h3>
-                            <form method="post" action="includes/mailer.php">
-                                <div class="form-row">
-                                    <div class="form-group col-md-6">
-                                        <label for="fullname">Full Name</label>
-                                        <input type="text" class="form-control" id="fullname" name="fullname" placeholder="John Doe" />
-                                    </div>
-                                    <div class="form-group col-md-6">
-                                        <label for="email">Email</label>
-                                        <input type="email" class="form-control" id="email" name="email" placeholder="john.doe@example.com" />
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label for="address">Address</label>
-                                    <input type="text" class="form-control" id="address" name="address" placeholder="1234 Main St" />
-                                </div>
-                                <div class="form-group">
-                                    <label for="message">Message</label>
-                                    <textarea class="form-control" id="message" name="message" rows="3" placeholder="Comment"></textarea>
-                                </div>
-                                <button name="submit" type="submit" class="btn-sm btn-lg btn-block background-dark text-white text-center text-uppercase rounded-0 padding-15px">SEND MESSAGE</button>
-                            </form>
+                            <?php include('includes/form.php') ?>
                         </div>
                     </div>
                 </div>
@@ -69,8 +49,6 @@
         </div>
     </div>
     <!-- // Get A Quote  -->
-
-
     <div class="page-title">
         <div class="container">
             <div class="padding-tb-120px">
@@ -83,12 +61,9 @@
         </div>
     </div>
 
-
     <div class="padding-tb-100px">
-
         <div class="container">
             <div class="row">
-
                 <div class="col-lg-6 sm-mb-45px">
                     <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                     <h5>Phone :</h5>
@@ -99,35 +74,16 @@
                     <h5 class="margin-top-20px">Email :</h5>
                     <span class="d-block sm-mb-30px"><i class="fa fa-envelope-open text-main-color margin-right-10px" aria-hidden="true"></i> info@yoursite.com </span>
                 </div>
-
                 <div class="col-lg-6">
                     <div class="contact-modal">
                         <div class="background-main-color">
                             <div class="padding-30px">
                                 <h3 class="padding-bottom-15px">Get A Free Quote</h3>
-                                <form>
-                                    <div class="form-row">
-                                        <div class="form-group col-md-6">
-                                            <label>Full Name</label>
-                                            <input type="text" class="form-control" id="inputName44" placeholder="Name">
-                                        </div>
-                                        <div class="form-group col-md-6">
-                                            <label>Email</label>
-                                            <input type="email" class="form-control" id="inputEmail44" placeholder="Email">
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <label>Message</label>
-                                        <textarea class="form-control" id="exampleFormControlTextarea11" rows="3"></textarea>
-                                    </div>
-                                    <a href="#" class="btn-sm btn-lg btn-block background-dark text-white text-center  text-uppercase rounded-0 padding-15px">SEND MESSAGE</a>
-                                </form>
+                                <?php include('includes/form.php') ?>
                             </div>
                         </div>
                     </div>
                 </div>
-
-
             </div>
         </div>
 
