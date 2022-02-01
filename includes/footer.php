@@ -64,7 +64,7 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="copy-right-text text-lg-left text-center sm-mb-15px">
-                    <a target="_blank" href="https://qbelimited.com">QBE (Ghana) Limited </a> &copy; 2022-<?php echo date("Y"); ?>
+                    <a target="_blank" href="https://qbelimited.com">QBE - TenIO </a> &copy; 2022-<?php echo date("Y"); ?>
                 </div>
             </div>
             <div class="col-lg-6">
