@@ -1,1 +1,3 @@
-# inlandlogisticshandlers
+# Inlandlogisticshandlers
+
+Website for Logistics Company
