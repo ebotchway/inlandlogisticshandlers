@@ -1,21 +1,107 @@
-MIT License
+QBE (Ghana) Limited License
 
-Copyright (c) 2022 Emmanuel Kwaku Botchway
+Copyright (c) 2022 TenIO
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+GRANT OF LICENSE
+Subject to the terms and condition, TenIO grants to Licensee a non-exclusive,
+non-transferable license to use this software or website (the "Licensed Programs")
+for business purposes. Licensee may use the Licensed Programs as it is, and may
+not translate or modify the licensed programs or incorporate them into other software.
+Licensee may not, however, transfer or sublicense the Licensed Programs to any third
+party, in whole or in part, in any form, whether modified or unmodified.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+CONSIDERATION TO TenIO
+a. Licensee shall pay, upon delivery of the Licensed Programs, the license fees set.
+b. License fees do not include any shipping, duties, bank fees, sales, use, excise or
+similar taxes due. If Licensor is required to pay any such amounts, Licensee shall
+reimburse Licensor in full.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+COPIES
+Licensee may not make copies of the Licensed Program in any form for use by Licensee
+and for backup or archive purposes.
+
+OWNERSHIP
+This program is a property of TenIO a subsidiary of QBE (Ghana) Company Limited .
+
+PROPRIETARY RIGHTS
+Licensee recognizes that TenIO regards the Licensed Programs as its proprietary
+information and as confidential trade secrets of great value. Licensee agrees not to
+provide or to otherwise make available in any form the Licensed Programs, or any portion
+thereof, to any person without the prior written consent of TenIO. Licensee further
+agrees to treat the Licensed Programs with at least the same degree of care with which
+Licensee treats its own confidential information and in no event with less care than is
+reasonably required to protect the confidentiality of the Licensed Programs.
+
+TERM
+The license granted hereunder shall continue with a yearly fee unless and until terminated
+by Licensee.
+
+TERMINATION
+TenIO may terminate the program if Licensee is in default of payment and fails to correct
+such default within three (3) days after written notice thereof from TenIO. In the event of
+termination, Licensee will immediately discontinue use of the Licensed Programs.
+
+MAINTENANCE SUPPORT
+Licensor will provide to Licensee the following support with respect to the Software:
+(i) If during fist time use of this program, Licensee notifies Licensor of a substantial
+program error respecting the Software, or Licensor has reason to believe that error exists
+in the Software and so notifies Licensee, Licensor shall at its expense verify and attempt to
+correct such error within thirty (30) working days after the date of notification. If Licensee
+is not satisfied with the correction, then Licensee may terminate the program, but without
+refund of any amount paid to Licensor or release of any amounts due Licensor at the time of
+termination.
+(ii) In the case that Licensee has technical questions in the use of the Software, Licensee
+may submit those questions to Licensor. Licensor shall provide consulting to answer such
+questions without charge to Licensee up to a maximum of sixteen (16) hours for each licensed
+program.
+(iii) If License desires to continue the Software support specified in this section,
+Licensee shall pay to Licensor the maintenance fee(s).
+
+WARRANTY DISCLAIMER
+TenIO licenses, and Licensee accepts, the licensed programs "AS IS." TenIO
+PROVIDES NO WARRANTIES AS TO THE FUNCTION OR USE OF THE LICENSED PROGRAMS, WHETHER EXPRESS,
+IMPLIED, OR STATUTORY, INCLUDING, WITHOUT LIMITATION, ANY IMPLIED WARRANTIES OF MERCHANTABILITY
+OR FITNESS FOR PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE
+LICENSED PROGRAM IS WITH LICENSEE. LICENSOR DOES NOT WARRANT THAT THE FUNCTIONS CONTAINED IN
+THE LICENSED PROGRAMS WILL MEET LICENSEE'S REQUIREMENTS OR THAT THE OPERATION OF THE LICENSED
+PROGRAMS WILL BE UNINTERRUPTED OR ERROR FREE.
+
+PATENT AND COPYRIGHT INDEMNITY
+TenIO will defend at its own expense any action brought against Licensee to the
+extent it is based on a claim that the Licensed Programs used within the scope of the license
+granted hereunder infringe a Ghana's patent, copyright or other proprietary right of a third
+party. TenIO will pay any costs, damages or attorney fees finally awarded against Licensee in
+such action which are attributable to such claim, provided TenIO is promptly notified in writing
+of such claim, may control the defense and/or settlement of such claim, and is provided with all
+requested assistance, information and authority. In the event that a Licensed Program becomes,
+or in TenIO's opinion is likely to become, the subject of a claim of infringement of a Ghana's
+patent, copyright or trade secret, TenIO may at its option either secure Licensee's right to
+continue using the Licensed Programs, replace or modify the Licensed Programs to make them
+not infringing, or provide Licensee with a refund of the license fee less depreciation on a 5 (five)
+year, straight-line basis. TenIO shall have no liability for any claim of patent, copyright or trade
+secret infringement based on the use of a Licensed Program in any form other than the original,
+unmodified form provided to Licensee or the use of a combination of the Licensed Programs
+with hardware, software or data not supplied by TenIO where the used Licensed Programs alone
+in their original, unmodified form would not constitute an infringement. The foregoing states
+Licensee's entire liability for infringement or claims of infringement of patents, copyrights or
+other intellectual property right.
+
+LIMITATION OF LIABILITY
+TenIO'S LIABILITY TO LICENSEE UNDER ANY PROVISIONS OF THIS PROGRAM FOR DAMAGES FINALLY AWARDED
+SHALL BE LIMITED TO THE AMOUNTS ACTUALLY PAID HEREUNDER BY LICENSEE TO TenIO. IN NO EVENT SHALL
+TenIO BE LIABLE FOR INDIRECT, INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES, INCLUDING LOSS OF
+USE, LOSS OF PROFITS OR INTERRUPTION OF BUSINESS, HOWEVER CAUSED OR ON ANY THEORY OF LIABILITY.
+
+GOVERNING LAW/FORUM
+This program shall be governed and interpreted by the laws of the Ghana. Accra, Ghana shall be
+the appropriate venue and jurisdiction for the resolution of any disputes hereunder. Both parties
+hereby consent to such personal and exclusive jurisdiction.
+
+EXPORT REGULATIONS
+Licensee understands that TenIO is subject to regulation by agencies of the Ghana Government,
+including the Ghana Departments of Commerce, which prohibit export or diversion of certain
+technical products to certain countries. Licensee warrants that it will comply in all respect
+with the export and re-export restrictions set forth in the export license for the Licensed
+Programs and all other applicable export regulations. Licensee agrees to indemnify and hold
+TenIO harmless from any loss, damages, liability or expenses incurred by TenIO as a result of
+Licensee's failure to comply with any export regulations or restrictions.
