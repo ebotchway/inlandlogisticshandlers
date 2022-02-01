@@ -1,14 +1,16 @@
-# Apache Rewrite Rules
-<IfModule mod_rewrite.c>
+Header add Strict-Transport-Security "max-age=15768000"
+Header edit Set-Cookie ^(.*)$ "$1;HttpOnly;Secure;SameSite=Strict"
+Header set Content-Security-Policy "default-src 'self';"
+Header always append X-Frame-Options DENY
+Header set X-XSS-Protection "1: mode=block"
 
 RewriteEngine on
 Options +FollowSymlinks -MultiViews
-RewriteRule ^index.html$ home.php
 
-# Remove .php-extension from url
+# to redirect my.site.com to my.site.com/index.html
+RewriteRule ^$ /index.html [R,L]
+
+# to redirect /dir1/dir2 to index.php?url=dir1/dir2
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}\.php -f
-RewriteRule ^([^\.]+)/$ $1.php
-
-# End of Apache Rewrite Rules
-</IfModule>
+RewriteCond  %{QUERY_STRING} !^url=
+RewriteRule ^([^/]+)/([^/]+)/?$ /index.php?url=$1/$2 [R,L,QSA]
