@@ -17,10 +17,10 @@
             <div class="nile-widget widget_nav_menu sm-mb-45px">
                 <h2 class="title">Our Services</h2>
                 <ul class="footer-menu">
-                    <li><a href="#">Cargo Transportation </a></li>
-                    <li><a href="#">Air Freight </a></li>
-                    <li><a href="#">Ocean Freight </a></li>
-                    <li><a href="#">Packaging & Storage </a></li>
+                    <li><a href="cargo.php">Cargo Transportation </a></li>
+                    <li><a href="air.php">Air Freight </a></li>
+                    <li><a href="ocean.php">Ocean Freight </a></li>
+                    <li><a href="package.php">Packaging & Storage </a></li>
                 </ul>
             </div>
         </div>
