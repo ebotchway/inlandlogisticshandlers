@@ -17,5 +17,5 @@
         <label for="message">Message</label>
         <textarea class="form-control" id="message" name="message" rows="3" placeholder="Comment"></textarea>
     </div>
-    <button name="submit" type="submit" class="btn-sm btn-lg btn-block background-dark text-white text-center text-uppercase rounded-0 padding-15px">SEND MESSAGE</button>
+    <button name="submit" type="submit" class="btn-sm btn-lg btn-block background-dark text-white text-center text-uppercase rounded-0 padding-15px">SUBMIT</button>
 </form>

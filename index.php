@@ -264,7 +264,7 @@ include_once("config.php");
 							</a>
 						</div>
 						<div class="col-lg-4 col-md-4">
-							<a href="#" class="action-bottom layout-1">
+							<a href="contact.php" class="action-bottom layout-1">
 								<img src="assets/icons/small-icon-3.png" alt="" />
 								<h4>Contact Us</h4>
 							</a>
