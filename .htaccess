@@ -1,22 +1,23 @@
-RewriteEngine on
-
-Header add Strict-Transport-Security "max-age=15768000"
-Header edit Set-Cookie ^(.*)$ "$1;HttpOnly;Secure;SameSite=Strict"
-Header set Content-Security-Policy "default-src 'self';"
-Header always append X-Frame-Options DENY
-Header set X-XSS-Protection "1: mode=block"
-Options +FollowSymlinks -MultiViews
-
+# htaccess settings for godaddy sites
+Options -MultiViews
+RewriteEngine On
 RewriteBase /
-RewriteRule ^$ /index.html [R,L]
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond  %{QUERY_STRING} !^url=
-RewriteRule ^([^/]+)/([^/]+)/?$ /index.php?url=$1/$2 [R,L,QSA]
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_URI} !(\.[a-zA-Z0-9]{1,5}|/|#(.*))$
-RewriteRule ^(.*)$ $1/ [R=301,L]
-RewriteRule ^([^\.]+)/$ $1.php
-RewriteRule (.*)/$ /$1 [R=302,L]
-RewriteCond %{DOCUMENT_ROOT}/$1.php -f
-RewriteRule (.*) $1.php [L]
 
+# remove .php; use THE_REQUEST to prevent infinite loops
+# force www to be added to reqiest each time it is called
+RewriteCond %{HTTP_HOST} ^www\.inlandlogisticshandlers\.com
+RewriteCond %{THE_REQUEST} ^GET\ (.*)\.php\ HTTP
+RewriteRule (.*)\.php$ $1 [R=301]
+
+# remove index
+RewriteRule (.*)index$ $1 [R=301]
+
+# remove slash if not directory
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} /$
+RewriteRule (.*)/ $1 [R=301]
+
+# add .php to access file, but don't redirect
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteCond %{REQUEST_URI} !/$
+RewriteRule (.*) $1\.php [L]
