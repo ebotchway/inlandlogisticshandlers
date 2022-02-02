@@ -136,26 +136,7 @@
 					<div class="background-white margin-bottom-40px">
 						<div class="nile-widget contact-widget">
 							<div class="padding-30px">
-								<div class="margin-bottom-60px">
-									<h2 class="title">Location</h2>
-									<div class="contact-info opacity-9">
-										<div class="icon margin-top-5px"><span class="icon_pin_alt"></span></div>
-										<div class="text">
-											<span class="title-in">Location :</span> <br>
-											<span class="font-weight-500 text-uppercase">US - Los Angeles</span>
-										</div>
-									</div>
-								</div>
-								<div class="call_center">
-									<h2 class="title">Call Center</h2>
-									<div class="contact-info opacity-9">
-										<div class="icon  margin-top-5px"><span class="icon_phone"></span></div>
-										<div class="text">
-											<span class="title-in">Call Us :</span><br>
-											<span class="font-weight-500 text-uppercase">00222123333019</span>
-										</div>
-									</div>
-								</div>
+								<?php include('includes/infode.php') ?>
 							</div>
 						</div>
 					</div>

@@ -39,7 +39,7 @@
                         </div>
                         <div class="text">
                             <span class="title-in">Location :</span> <br />
-                            <span class="font-weight-500 text-uppercase">3 Canal Plaza, Ground Floor Portland</span>
+                            <span class="font-weight-500 text-uppercase">Three Canal Plaza, Ground Floor Portland, ME 04101</span>
                         </div>
                     </div>
                 </div>
@@ -51,7 +51,7 @@
                         </div>
                         <div class="text">
                             <span class="title-in">Call Us :</span><br />
-                            <span class="font-weight-500 text-uppercase">650-876-2022</span>
+                            <span class="font-weight-500 text-uppercase">260-230-3728</span>
                         </div>
                     </div>
                 </div>
