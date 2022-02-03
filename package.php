@@ -98,23 +98,6 @@
 							</ul>
 						</div>
 					</div>
-					<div class="background-white margin-bottom-40px">
-						<div class="nile-widget contact-widget">
-							<div class="padding-30px">
-								<?php include('includes/infode.php') ?>
-							</div>
-						</div>
-					</div>
-
-					<div class="contact-modal">
-						<div class="background-grey-4 text-white">
-							<div class="padding-30px">
-								<h3 class="padding-bottom-15px">Get A Free Quote</h3>
-								<?php include('includes/form.php') ?>
-							</div>
-						</div>
-					</div>
-
 				</div>
 
 			</div>
