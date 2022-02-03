@@ -65,7 +65,6 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 sm-mb-45px">
-                    <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                     <h5>Phone :</h5>
                     <span class="d-block"><i class="fa fa-phone text-main-color margin-right-10px" aria-hidden="true"></i>260-230-3728</span>
                     <span class="d-block sm-mb-30px"><i class="fa fa-mobile text-main-color margin-right-10px" aria-hidden="true"></i>260-230-3728</span>
