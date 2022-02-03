@@ -14,7 +14,6 @@
                         <a href="#">About</a>
                         <ul class="sub-menu">
                             <li><a href="about.php">About Us</a></li>
-                            <li><a href="team.php">Our Team</a></li>
                             <li><a href="contact.php">Contact Us</a></li>
                         </ul>
                     </li>
