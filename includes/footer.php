@@ -66,7 +66,9 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="copy-right-text text-lg-left text-center sm-mb-15px">
-                    <a target="_blank" href="https://qbelimited.com">QBE - TenIO </a> &copy; 2022-<?php echo date("Y"); ?>
+                    Inland Logistics Handlers &copy; <?php echo date("Y"); ?>
+                    <br>
+                    Developed by <a target="_blank" href="https://qbelimited.com">QBE - TenIO </a>
                 </div>
             </div>
             <div class="col-lg-6">
