@@ -17,5 +17,5 @@
         <label for="message">Message</label>
         <input class="form-control" id="message" name="message" rows="3" placeholder="Comment"></input>
     </div>
-    <input name="submit" type="submit" class="btn-sm btn-lg btn-block background-dark text-white text-center text-uppercase rounded-0 padding-15px">SUBMIT</input>
+    <button name="submit" type="submit" class="form-group btn-sm btn-lg btn-block background-dark text-white text-center text-uppercase rounded-0 padding-15px">SUBMIT</button>
 </form>
