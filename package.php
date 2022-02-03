@@ -76,51 +76,16 @@
 							<li><img src="assets/img/service_3.jpg" alt=""></li>
 						</ul>
 					</div>
+					<h2>Parking and storage</h2>
 
-					<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
-
-					<h2>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</h2>
-
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+					<p>
+						When it comes to packaging and storage we deliver very good from the Package of heavy items in smaller boxes for easier lifting.
+						Using same size boxes for easy storage stacking. Seal boxes completely with packing tape to keep boxes sturdy.
+						Label boxes on the top and on multiple sides for easy identification with safe depository service for our clients internationally.
 					</p>
 
 
-					<div id="accordion" class="nile-accordion margin-top-30px sm-mb-45px">
-						<div class="card">
-							<div class="card-header" id="headingOne">
-								<h5 class="mb-0">
-									<button class="btn btn-block btn-link active" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><i class="fa fa-info-circle"></i> Why us ?</button>
-								</h5>
-							</div>
-
-							<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-								<div class="card-body">
-									Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation </div>
-							</div>
-						</div>
-						<div class="card">
-							<div class="card-header" id="headingTwo">
-								<h5 class="mb-0">
-									<button class="btn btn-block btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><i class="fa fa-truck"></i> Explore our Facilities</button>
-								</h5>
-							</div>
-							<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-								<div class="card-body">
-									Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation </div>
-							</div>
-						</div>
-						<div class="card">
-							<div class="card-header" id="headingThree">
-								<h5 class="mb-0">
-									<button class="btn btn-block btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><i class="fa fa-plane"></i> Warehousing Solution</button>
-								</h5>
-							</div>
-							<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-								<div class="card-body">
-									Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation </div>
-							</div>
-						</div>
-					</div>
+					<?php include('includes/accord.php') ?>
 				</div>
 				<div class="col-lg-3">
 					<div class="background-main-color margin-bottom-40px">
@@ -157,32 +122,7 @@
 	</div>
 
 
-	<div class="call-action ba-1">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-7 padding-tb-15px">
-					<h2>Unbeatable Trucking and Transport Services</h2>
-					<div class="text">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
-				</div>
-				<div class="col-lg-5">
-					<div class="row">
-						<div class="col-lg-4 col-md-4 sm-mb-45px">
-							<a href="#" class="action-bottom layout-1">
-								<img src="assets/icons/small-icon-1.png" alt="">
-								<h4>Tell Friend</h4>
-							</a>
-						</div>
-						<div class="col-lg-4 col-md-4">
-							<a href="contact.php" class="action-bottom layout-1">
-								<img src="assets/icons/small-icon-3.png" alt="">
-								<h4>Contact Us</h4>
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+	<?php include('includes/action.php') ?>
 
 	<footer class="layout-dark">
 		<?php include('includes/footer.php') ?>
