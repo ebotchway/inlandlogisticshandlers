@@ -133,7 +133,7 @@ include_once("config.php");
 							<a href="#" class="title">Road Freight</a>
 						</div>
 						<div class="dis clearfix">
-							Chances are unless you are very lucky you will.
+							Contact us for road freight.
 						</div>
 					</div>
 				</div>
@@ -146,7 +146,7 @@ include_once("config.php");
 							<a href="#" class="title">Air Freight</a>
 						</div>
 						<div class="dis clearfix">
-							Chances are unless you are very lucky you will.
+							Contact us for Air freight.
 						</div>
 					</div>
 				</div>
@@ -159,7 +159,7 @@ include_once("config.php");
 							<a href="#" class="title">Ocean Freight</a>
 						</div>
 						<div class="dis clearfix">
-							Chances are unless you are very lucky you will.
+							Contact us for Ocean freight.
 						</div>
 					</div>
 				</div>
