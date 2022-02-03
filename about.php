@@ -98,9 +98,7 @@
                     <div class="col-lg-7">
                         <div class="icon text-main-color"><i class="fa fa-truck"></i></div>
                         <div class="h2">Our Service</div>
-                        <div class="des">In quis luctus dolor. Sed ac libero arcu. Phasellus vulputate ultrices augue,
-                            eget feugiat lectus efficitur in. Nulla non pharetra justo. Nunc viverra consectetur
-                            bibendum. </div>
+                        <div class="des">We have all this service available for our customers.</div>
                     </div>
                 </div>
             </div>
@@ -112,14 +110,12 @@
                     <div class="service-icon-box">
                         <div class="icon"><img src="assets/icons/service-dark-1.png" alt=""></div>
                         <a href="#" class="title h2">Cargo Transportation</a>
-                        <div class="des">Ut elit tellus, luctus nec magna mattis et, pulvinar dapibus lorem leo
-                            ultricies et vitae enim.</div>
+                        <div class="des">Contact us for road freight.</div>
                     </div>
                     <div class="service-icon-box">
                         <div class="icon"><img src="assets/icons/service-dark-2.png" alt=""></div>
                         <a href="#" class="title h2">Air Freight</a>
-                        <div class="des">Ut elit tellus, luctus nec magna mattis et, pulvinar dapibus lorem leo
-                            ultricies et vitae enim.</div>
+                        <div class="des">Contact us for Air freight.</div>
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -131,14 +127,12 @@
                     <div class="service-icon-box">
                         <div class="icon"><img src="assets/icons/service-dark-3.png" alt=""></div>
                         <a href="#" class="title h2">Ocean Freight</a>
-                        <div class="des">Ut elit tellus, luctus nec magna mattis et, pulvinar dapibus lorem leo
-                            ultricies et vitae enim.</div>
+                        <div class="des">Contact us for Ocean freight.</div>
                     </div>
                     <div class="service-icon-box">
                         <div class="icon"><img src="assets/icons/service-dark-4.png" alt=""></div>
                         <a href="#" class="title h2">Packaging & Storage</a>
-                        <div class="des">Ut elit tellus, luctus nec magna mattis et, pulvinar dapibus lorem leo
-                            ultricies et vitae enim.</div>
+                        <div class="des">Contact us for Packaging & Storage</div>
                     </div>
                 </div>
             </div>
