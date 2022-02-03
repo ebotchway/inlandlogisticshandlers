@@ -17,5 +17,5 @@
         <label for="message">Message</label>
         <input class="form-control" id="message" name="message" rows="3" placeholder="Comment"></input>
     </div>
-    <button name="submit" type="submit" class="form-group btn-sm btn-lg btn-block background-dark text-white text-center text-uppercase rounded-0 padding-15px">SUBMIT</button>
+    <input type="submit" name="submit" class="text-center btn-sm btn-lg btn-block" style="color:white;background-color: black;padding: 15px;text-transform: uppercase;" value="Send Message">
 </form>
