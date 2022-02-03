@@ -16,6 +16,12 @@
         </div>
 
         <div class="col-lg-3 col-md-6">
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+        </div>
+
+        <div class="col-lg-3 col-md-6">
             <div class="nile-widget widget_nav_menu sm-mb-45px">
                 <h2 class="title">Our Services</h2>
                 <ul class="footer-menu">
@@ -27,13 +33,6 @@
             </div>
         </div>
 
-        <div class="col-lg-3 col-md-6">
-
-        </div>
-
-        <div class="col-lg-3 col-md-6">
-
-        </div>
     </div>
 </div>
 <div class="copy-right">
