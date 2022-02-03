@@ -1,4 +1,4 @@
-<form method="post" action="mailer.php">
+<form method="POST" action="includes/mailer.php">
     <div class="form-row">
         <div class="form-group col-md-6">
             <label for="fullname">Full Name</label>
