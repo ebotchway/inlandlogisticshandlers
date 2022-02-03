@@ -33,10 +33,11 @@
                         </ul>
                     </li>
                 </ul>
+
                 <div class="d-none d-xl-block search-link pull-right model-link margin-top-15px">
-                    <a id="search-header" class="model-link margin-right-0px text-dark opacity-hover-8" href="#search">
+                    <!-- <a id="search-header" class="model-link margin-right-0px text-dark opacity-hover-8" href="#search">
                         <i class="fa fa-search"></i>
-                    </a>
+                    </a> -->
                 </div>
             </div>
             <div class="col-lg-2 col-md-12 d-none d-lg-block">
