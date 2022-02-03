@@ -133,7 +133,7 @@ include_once("config.php");
 							<a href="#" class="title">Road Freight</a>
 						</div>
 						<div class="dis clearfix">
-							Contact us for road freight.
+							Contact us for road freight
 						</div>
 					</div>
 				</div>
@@ -146,7 +146,7 @@ include_once("config.php");
 							<a href="#" class="title">Air Freight</a>
 						</div>
 						<div class="dis clearfix">
-							Contact us for Air freight.
+							Contact us for Air freight
 						</div>
 					</div>
 				</div>
@@ -159,7 +159,7 @@ include_once("config.php");
 							<a href="#" class="title">Ocean Freight</a>
 						</div>
 						<div class="dis clearfix">
-							Contact us for Ocean freight.
+							Contact us for Ocean freight
 						</div>
 					</div>
 				</div>
@@ -179,9 +179,7 @@ include_once("config.php");
 						</div>
 						<div class="h2">Our Service</div>
 						<div class="des">
-							In quis luctus dolor. Sed ac libero arcu. Phasellus vulputate
-							ultrices augue, eget feugiat lectus efficitur in. Nulla non
-							pharetra justo. Nunc viverra consectetur bibendum.
+							We have all this service available for our customers.
 						</div>
 					</div>
 				</div>
@@ -196,8 +194,7 @@ include_once("config.php");
 						</div>
 						<a href="#" class="title h2">Cargo Transportation</a>
 						<div class="des">
-							Ut elit tellus, luctus nec magna mattis et, pulvinar dapibus
-							lorem leo ultricies et vitae enim.
+							Contact us for Road freight
 						</div>
 					</div>
 				</div>
@@ -209,8 +206,7 @@ include_once("config.php");
 						</div>
 						<a href="#" class="title h2">Air Freight</a>
 						<div class="des">
-							Ut elit tellus, luctus nec magna mattis et, pulvinar dapibus
-							lorem leo ultricies et vitae enim.
+							Contact us for Air freight
 						</div>
 					</div>
 				</div>
@@ -222,8 +218,7 @@ include_once("config.php");
 						</div>
 						<a href="#" class="title h2">Ocean Freight</a>
 						<div class="des">
-							Ut elit tellus, luctus nec magna mattis et, pulvinar dapibus
-							lorem leo ultricies et vitae enim.
+							Contact us for Ocean freight
 						</div>
 					</div>
 				</div>
@@ -235,8 +230,7 @@ include_once("config.php");
 						</div>
 						<a href="#" class="title h2">Packaging & Storage</a>
 						<div class="des">
-							Ut elit tellus, luctus nec magna mattis et, pulvinar dapibus
-							lorem leo ultricies et vitae enim.
+							Contact us for Packaging & Storage
 						</div>
 					</div>
 				</div>
