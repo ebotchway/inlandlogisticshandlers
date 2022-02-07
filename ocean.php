@@ -12,7 +12,6 @@
 		<div class="header-output">
 			<div class="header-output">
 				<div class="header-in">
-					<?php include('includes/uphead.php') ?>
 					<?php include('includes/menu.php') ?>
 				</div>
 			</div>
